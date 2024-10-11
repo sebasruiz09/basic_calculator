@@ -3,10 +3,11 @@
   "version": "0.0.0",
   "licence": "MIT",
   "author": "sebas ruiz",
+  "main": "main.js",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "yarn test && ng build",
+    "build": "ng build",
     "build:app": "electron-builder",
     "watch": "ng build --watch --configuration development",
     "test": "ng test --watch --no-progress --browsers=FirefoxHeadless",
@@ -48,7 +49,7 @@
   },
   "build:app": {
     "name": "zoneless-calculator",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "main": "main.js",
     "description": "calculator app",
     "build": {

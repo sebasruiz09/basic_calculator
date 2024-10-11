@@ -13,11 +13,10 @@ const createWindow = () => {
     webPreferences: {
       nodeIntegration: false,
       contextIsolation: true,
-      preload: path.join(__dirname, "preload.js"),
     },
   });
 
-  win.loadFile("build/browser/index.html");
+  win.loadFile("./build/browser/index.html");
 };
 
 app.whenReady().then(() => {
