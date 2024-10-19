@@ -1,8 +1,6 @@
-import { ReturnStatement } from '@angular/compiler';
 import {
   Component,
   ElementRef,
-  HostBinding,
   input,
   output,
   signal,

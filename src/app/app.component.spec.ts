@@ -25,7 +25,6 @@ describe('AppComponent', () => {
   });
 
   it('should render router-outlet', () => {
-    fixture.detectChanges();
     const router = compiled.querySelector('router-outlet');
     expect(router).not.toBeNull();
   });
